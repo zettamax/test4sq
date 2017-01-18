@@ -8,8 +8,8 @@ Ak by nastali nejaké problémy s gitom, pošli všetky súbory Pavelovi e-mailo
 
 Veľa šťastia
 
-### Zadanie ###
-Vedel by nám v prehladnej tabuľke zobraziť zoznam možností, kam by sme po práci mohli skočiť na pivo? 
+## ZADANIE ##
+Vedel by nám v prehľadnej tabuľke zobraziť zoznam možností, kam by sme po práci mohli skočiť na pivo? 
 
 ### Podmienky a pomôcky pre Foursquare API ###
 Aby sme si nemuseli možnosti vymýšľať, využi Foursquare API, ktoré obsahuje takmer aktuálne dáta. Použitú technológiu na spojenie s Foursquare API si môžeš zvoliť sám, 
@@ -19,13 +19,16 @@ V tomto prípade si môžeš otestovať enpoint: https://api.foursquare.com/v2/v
 Nastav endpointy tak, aby obsahovali min. 7 barov/krčiem/zariadení
 
 **Pomôcky**
-&categoryId = ID kategórie zariadení, ktoré hľadáme. Prehľadný strom nájdeš na: https://developer.foursquare.com/categorytree . Vyber niečo z kategórií Bar, Piváreň, Vináreň
-&radius = Numerická hodnota vzdialenosti, zadaj medzi cca 300-1000
-&client_id a &client_secret = Na spustenie nového projektu sa musíš na foursquare zaregistrovať a pridať svoju appku na autorizáciu. Môžeš však využiť naše údaje
-&v = verzia vo formáte YYYYMMDD
-&&ll = lat a lng parametre oddenelé čiarkou. Môžeš ich upraviť na nejaké lepšie miesta
 
-** Náhradné zadanie **
+* &categoryId = ID kategórie zariadení, ktoré hľadáme. Prehľadný strom nájdeš na: https://developer.foursquare.com/categorytree . Vyber niečo z kategórií Bar, Piváreň, Vináreň
+* &radius = Numerická hodnota vzdialenosti, zadaj medzi cca 300-1000
+* &client_id a &client_secret = Na spustenie nového projektu sa musíš na foursquare zaregistrovať a pridať svoju appku na autorizáciu. Môžeš však využiť naše údaje
+* &v = verzia vo formáte YYYYMMDD
+* &&ll = lat a lng parametre oddenelé čiarkou. Môžeš ich upraviť na nejaké lepšie miesta
+* Kompletná dokumentácia = https://developer.foursquare.com/docs/
+
+**Náhradné zadanie**
+
 V prípade, že by si mal problémy s technickým riešením projektu. Skús navrhnúť ako by si riešil návrh a architektúru appky/webky, ktorú by Boataround mohol využiť pre svojich 
 zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať reštauračné zariadenia, hotely a pod. podľa geo údajov v blízkosti užívateľa, alebo v prístavoch jeho trás. 
 
