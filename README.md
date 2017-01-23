@@ -1,13 +1,3 @@
-# Testovaci repozitar #
-
-Ahoj Samuel,
-
-Sme radi, že ťa Boataround zaujal, máme však pre teba malý testík. Na jeho vyhotovanie máš cca hodinku. Naklonuj si repozitár, zmeň branch na 'Samuel' a môžeš začať.
-
-Ak by nastali nejaké problémy s gitom, pošli všetky súbory Pavelovi e-mailom.
-
-Veľa šťastia
-
 ## ZADANIE ##
 Vedel by nám v prehľadnej tabuľke zobraziť zoznam možností, kam by sme po práci mohli skočiť na pivo? 
 
@@ -27,11 +17,6 @@ Nastav endpointy tak, aby obsahovali min. 7 barov/krčiem/zariadení
 * &&ll = lat a lng parametre oddenelé čiarkou. Môžeš ich upraviť na nejaké lepšie miesta
 * Kompletná dokumentácia = https://developer.foursquare.com/docs/
 
-**Náhradné zadanie**
-
-V prípade, že by si mal problémy s technickým riešením projektu. Skús navrhnúť ako by si riešil návrh a architektúru appky/webky, ktorú by Boataround mohol využiť pre svojich 
-zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať reštauračné zariadenia, hotely a pod. podľa geo údajov v blízkosti užívateľa, alebo v prístavoch jeho trás. 
-
 ### Podmienky pre HTML tabuľku ###
 
 * Vytvor HTML tabuľku s nasledujúcimi pravidlami:
@@ -49,7 +34,7 @@ zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať rešt
 ```git clone https://boataround@bitbucket.org/boataround/zadanie.git```
 
 2. Otvor testovaciu branch
-```git fetch && git checkout Samuel```
+```git fetch && git checkout <nazov tvojej branche>```
 
 ### Odovzdanie zadania ###
 
@@ -61,3 +46,8 @@ zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať rešt
 
 3. Odošli
 ```git push```
+
+## Náhradné zadanie ##
+
+V prípade, že by si mal problémy s technickým riešením projektu. Skús navrhnúť ako by si riešil návrh a architektúru appky/webky, ktorú by Boataround mohol využiť pre svojich 
+zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať reštauračné zariadenia, hotely a pod. podľa geo údajov v blízkosti užívateľa, alebo v prístavoch jeho trás. 
