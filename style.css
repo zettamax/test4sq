@@ -1,0 +1,23 @@
+#list tr {
+    height: 40px;
+}
+#list td {
+    vertical-align: middle;
+}
+#filter input[type=radio] {
+    display: none;
+}
+#filter input[type=radio]:checked+span {
+    background: #89de6c;
+}
+.limit {
+    width: 5ex;
+    color: gray;
+}
+.right {
+    text-align: right;
+}
+.picked {
+    text-align: center;
+    font-size: 120%;
+}
