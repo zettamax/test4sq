@@ -53,10 +53,10 @@ $(document).ready(function(){
                 var venue = venues[i];
 
                 dataToDisplay.push([
-                    venue.name,
-                    pickMainCategory(venue.categories),
-                    venue.location.formattedAddress.join(', '),
-                    venue.location.distance,
+                    '<p>' + venue.name + '</p>',
+                    '<p>' + pickMainCategory(venue.categories) + '</p>',
+                    '<p>' + venue.location.formattedAddress.join(', ') + '</p>',
+                    '<p>' + venue.location.distance + '</p>',
                 ]);
             }
 

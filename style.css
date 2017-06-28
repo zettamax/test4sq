@@ -1,8 +1,13 @@
-#list tr {
-    height: 40px;
-}
 #list td {
+    padding: 0;
+}
+#list td p {
     vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 8px;
 }
 #filter input[type=radio] {
     display: none;
