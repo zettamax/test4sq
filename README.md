@@ -51,3 +51,7 @@ Nastav endpointy tak, aby obsahovali min. 7 barov/krčiem/zariadení
 
 V prípade, že by si mal problémy s technickým riešením projektu. Skús navrhnúť ako by si riešil návrh a architektúru appky/webky, ktorú by Boataround mohol využiť pre svojich 
 zákazníkov v okolí Stredozemného mora. Appka/Webka by mala zobrazovať reštauračné zariadenia, hotely a pod. podľa geo údajov v blízkosti užívateľa, alebo v prístavoch jeho trás. 
+
+# How to run
+
+Simply open index.html file in browser
