@@ -63,7 +63,6 @@ $(document).ready(function(){
 
                 // skip places w\o the address
                 if (venue.location.address === undefined) {
-                    console.log(venue.location);
                     continue;
                 }
 
@@ -71,7 +70,7 @@ $(document).ready(function(){
                     '',
                     '<p>' + venue.name + '</p>',
                     '<p>' + pickMainCategory(venue.categories) + '</p>',
-                    '<p>' + venue.location.formattedAddress.join(', ') + '</p>',
+                    '<p>' + venue.location.address + '</p>',
                     '<p>' + venue.location.distance + '</p>',
                 ]);
             }
