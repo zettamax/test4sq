@@ -29,3 +29,10 @@
 .gap {
     height: 2em;
 }
+.range-markup {
+    border-collapse: collapse;
+    width: 100%;
+}
+.borderless td {
+    border: none!important;
+}
