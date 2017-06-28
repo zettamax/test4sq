@@ -4,7 +4,16 @@ $(document).ready(function(){
         paging: false,
         ordering: false,
         searching: false,
-        responsive: true,
+        responsive: {
+            details: {
+                type: 'column'
+            }
+        },
+        columnDefs: [ {
+            className: 'control',
+            orderable: false,
+            targets:   0
+        } ],
         scrollY: "160px",
         "language": {
             "emptyTable": "Can't find any place :( Try to change radius"
@@ -53,6 +62,7 @@ $(document).ready(function(){
                 var venue = venues[i];
 
                 dataToDisplay.push([
+                    '',
                     '<p>' + venue.name + '</p>',
                     '<p>' + pickMainCategory(venue.categories) + '</p>',
                     '<p>' + venue.location.formattedAddress.join(', ') + '</p>',
