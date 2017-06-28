@@ -14,9 +14,9 @@ $(document).ready(function(){
             orderable: false,
             targets:   0
         } ],
-        scrollY: "160px",
-        "language": {
-            "emptyTable": "Can't find any place :( Try to change radius"
+        scrollY: "160px", // 4x of row height
+        language: {
+            emptyTable: "Can't find any place :( Try to change radius"
         }
     });
 
@@ -60,6 +60,12 @@ $(document).ready(function(){
                     continue;
                 }
                 var venue = venues[i];
+
+                // skip places w\o the address
+                if (venue.location.address === undefined) {
+                    console.log(venue.location);
+                    continue;
+                }
 
                 dataToDisplay.push([
                     '',
